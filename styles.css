@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+body {
+    background-color: #f0f0f0; /* Light background color for contrast */
+    font-family: Arial, sans-serif; /* Set a clean font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+}
+
+.container {
+    text-align: center; /* Center the contents */
+}
+
+.moviePic {
+    height: 400px; /* Set the height of the image */
+    width: auto; /* Maintain aspect ratio */
+    opacity: 0.9; /* Slightly transparent */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.movieDetail {
+    position: relative; /* Position relative to parent */
+    top: 20px; /* Push down from the top */
+    width: 80%; /* Width of the text */
+    text-align: center; /* Center the text */
+    font-size: 18px; /* Font size for the description */
+    color: #333; /* Dark color for text */
+    margin: 0 auto; /* Center the paragraph */
+}
